@@ -10,7 +10,7 @@
         <label class="block mb-2 text-gray-700 font-semibold">Password</label>
         <input type="password" class="w-full p-2 rounded border border-pink-400 focus:outline-none focus:ring-2 focus:ring-pink-400" />
       </div>
-      <button type="submit" class="bg-pink-400 text-white px-4 py-2 rounded font-bold w-full hover:bg-pink-300 transition mb-4">Sing In</button>
+      <button type="submit" class="bg-pink-400 text-white px-4 py-2 rounded font-bold w-full hover:bg-pink-300 transition mb-4">Sign In</button>
       <div class="text-center">
         <span class="text-gray-600">Don't Have an Account?</span>
         <button @click.prevent="showRegister = true" type="button" class="text-pink-400 font-semibold hover:underline ml-2">Sign Up</button>
